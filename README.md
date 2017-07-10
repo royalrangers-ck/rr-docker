@@ -1,22 +1,29 @@
 # Royal Rangers [Docker stack]
 
-A docker-based stack for Royal-Rangers environment
+Docker-based stack for Royal-Rangers environment.
+You can set up all the environment running only one single command.
 
 ## Usage
 
 Clone [rr-api](https://github.com/royalrangers-ck/rr-api) and [rr-web-app](https://github.com/royalrangers-ck/rr-web-app).
-Directories rr-docker, rr-api and rr-web-app should be on the same lavel!
+Directories **rr-docker**, **rr-api** and **rr-web-app** should be on the same lavel!
 
-### Starting up
+#### Start
 
-Go inside rr-docker and run the next command:
+Navigate to **rr-docker** directory and run the next command:
 
-* `docker-compose up --build -d`
+```
+  docker-compose up --build -d
+```
 
-In order to view the logs run:
+View logs:
 
-* `docker-compose logs -f`
+```
+  docker-compose logs -f
+```
 
-### Stopping
+#### Stop
 
-* `docker-compose stop`
+```
+  docker-compose stop
+```
