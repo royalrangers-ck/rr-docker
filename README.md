@@ -1,7 +1,6 @@
 # Royal Rangers [Docker stack]
 
-Docker-based stack for Royal-Rangers environment.
-You can set up all the environment running only one single command.
+Set up an environment running only one command.
 
 ## Prerequisites
 
@@ -9,7 +8,7 @@ You can set up all the environment running only one single command.
 
 Install **Docker Community Edition** (`CE`) on your development environment from https://www.docker.com/community-edition
 
-### `docker-compose`
+### Docker-compose
 
 `docker-compose` is a tool that allows to run, orchestrate and connect several containers at the same time. It should come pre-installed with your docker version.
 
