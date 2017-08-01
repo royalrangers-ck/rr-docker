@@ -6,7 +6,8 @@ Set up an environment running only one command.
 
 ### Docker
 
-Install **Docker Community Edition** (`CE`) on your development environment from https://www.docker.com/community-edition
+Install **Docker Community Edition** (`CE`) on your development environment from https://www.docker.com/community-edition.
+Note: if you're using Windows, install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox).
 
 ### Docker-compose
 
