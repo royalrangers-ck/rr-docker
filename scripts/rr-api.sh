@@ -13,17 +13,14 @@ if [ -d "$BACKUP" ] && [ -d "$APPLICATION" ]; then
     echo "Remove previously created backup..."
     rm -rf "$BACKUP"
 fi
-echo "No one backups found!"
+echo "There are no backups for now."
 
 if [ -d "$APPLICATION" ]; then
     echo "Create new one backup..."
     mv "$APPLICATION" "$BACKUP"
 fi
 
-mv "$APPLICATION" "$BACKUP"
-echo "Created new one backup!"
-
-git clone -b develop "https://github.com/royalrangers-ck/$NAME.git"
+git clone -b master "https://github.com/royalrangers-ck/$NAME.git"
 
 cd "$DOCKER"
 docker-compose ps
